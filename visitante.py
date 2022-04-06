@@ -12,4 +12,4 @@ def visitar ():
   bloque_alternativa.agregarInstruccion(alternativa) 
   bucle = MientrasQue(True, bloque_alternativa)
   visitante= Visitante()
-  bucle.acepta(visitante)
+  return bucle.acepta(visitante)
